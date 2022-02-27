@@ -1,0 +1,27 @@
+.pourquoi{
+    margin: 13%;
+    text-align: justify; 
+    border: 0.5px solid lightgray;
+    padding:1em;
+    border-radius: 10px; 
+}
+.pourquoi h1{   
+    
+    margin-bottom: 1em;
+    margin-top:.5em;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.pourquoi p span {
+    font-weight: 900;
+    color: rgb(2, 57, 238);
+}
+.pourquoi p .span2{
+    background-color:rgba(228, 101, 17, 0.5);
+    padding:.5em;
+    text-align:center;
+    font-weight: 900;
+    margin-top: 1em;
+    border-radius: 10px;
+}

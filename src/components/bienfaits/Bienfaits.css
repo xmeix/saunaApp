@@ -1,0 +1,49 @@
+.bienfaits {
+  margin: 10%;
+  border: 1px solid lightgray;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.bienfaits .cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.bienfaits .cards .cardactive {
+  border: 1px solid lightgray;
+  padding: 1.5em;
+  border-radius: 10px;
+  margin: 1em;
+  font-size: 20px;
+  font-weight: 900;
+
+  transition: 0.8s all ease-in-out;
+  
+  transform: translateX(-180px) rotate(360deg);
+}
+.bienfaits .cards .cardsuiv {
+  border: 1px solid lightgray;
+  padding: 1em;
+  border-radius: 10px;
+}
+.bienfaits .cards .cardprec {
+  border: 1px solid lightgray;
+  padding: 1em;
+  border-radius: 10px;
+}
+.bienfaits .cards .cardsuiv,
+.bienfaits .cards .cardprec {
+  opacity: 0.5;
+}
+
+.bienfaits button {
+  background-color: transparent;
+  border: solid 1px lightgray;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer; 
+}
