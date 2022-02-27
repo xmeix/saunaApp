@@ -43,15 +43,15 @@ const Bienfaits = () => {
   };
   const SusFunct = () => {
     if(index == 0 ) setIndex(6);
-    else setIndex(index + 1);
+    else setIndex(index - 1);
   };
   return (
     <div className="bienfaits">
       <button onClick={SusFunct}>previous</button>
       <div className="cards">
-        <div className="cardprec">{Bienfaits[index ].text}</div>
-        <div className="cardactive">{Bienfaits[(index + 1)%7].text}</div>
-        <div className="cardsuiv">{Bienfaits[(index + 2)%7].text}</div>
+        <div className="cardprec hover" onClick={SusFunct}>{Bienfaits[index ].text}</div>
+        <div className="cardactive hover">{Bienfaits[(index + 1)%7].text}</div>
+        <div className="cardsuiv hover" onClick={AddFunct}>{Bienfaits[(index + 2)%7].text}</div>
       </div>
       <button onClick={AddFunct}>next</button>
     </div>
