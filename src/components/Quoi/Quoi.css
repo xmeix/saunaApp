@@ -1,8 +1,12 @@
-.quoi {
-  margin: 3em 1em;
+.quoi { 
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: space-around;
+  background-color:#37474f;
+  color: black !important;
+  padding: 1.5em;
+  height: 100%;
 }
 .rep {
   display: flex;
@@ -16,34 +20,41 @@
   flex: 1;
   margin: 1em;
   padding: 1em;
-  background-color: rgba(255, 68, 0, 0.295);
+  background-color: #ff725e;
   border-radius: 10px;
   text-align: center;
 }
-.rep .colEnt{
+.rep .colEnt {
   background-color: lightskyblue !important;
   font-weight: bold;
 }
 .rep a {
   margin-top: 1em;
-  color: rgba(255, 68, 0, 0.966);
-  border: solid 1px rgba(255, 68, 0, 0.966);
+  color: #ff725e;
+  border: solid 1px #ff725e;
   border-radius: 10px;
   padding: 0.5em;
   font-weight: 900;
   text-decoration: none;
 }
-.rep a:hover{
+.rep a:hover {
   border: solid 1px transparent;
-  background-color:rgba(255, 68, 0, 0.527);
+  background-color:#ff725e;
   color: white;
 }
 .rep .long {
   flex-grow: 5;
 }
-.what {
+.wha {
   flex-grow: 10;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 840px) {
+  .quoi {
+    margin-bottom: 5em;
+  }
 }

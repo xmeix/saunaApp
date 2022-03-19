@@ -3,7 +3,7 @@ import quoi from "../../media/quoi.svg";
 const Quoi = () => {
   return (
     <div className="quoi">
-      <h1 className="what">C'est quoi un massage amma assis ?!</h1>
+      <h1 className="wha">C'est quoi un massage amma assis ?!</h1>
       <div className="rep">
         <div className="info">Une Technique Codifiée sous forme d’<b>enchainements précis</b>.</div>
         <div className="info long">

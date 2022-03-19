@@ -1,21 +1,15 @@
-import "./App.css";
+import "./App.css"; 
 import Bienfaits from "./components/bienfaits/Bienfaits";
 import Comment from "./components/comment/Comment";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Pourquoi from "./components/pourquoi/Pourquoi";
 import Quoi from "./components/Quoi/Quoi";
-import logo from "./media/logo.png";
 function App() {
   return (
-    <div className="app">
-      <div className="header">
-        <h1 className="logo">
-          <img src={logo} alt="logo" className="logoImage" />
-          <p>Ammadyn</p>
-          </h1>
-        <Navbar />
-      </div>
+    <div className="app"> 
+        <Navbar  />
+      
       <div className="container">
         <section id="home">
           <Home />

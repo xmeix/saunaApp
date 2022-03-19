@@ -14,25 +14,7 @@
   flex-direction: column;
   background-color: #ecddd027;
 }
-.header {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0.5em;
-}
 
-.header .logo {
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  font-weight: larger;
-  color: #e45406;
-}
-
-.header .logo .logoImage {
-  width: 40px;
-  height: 50px;
-  object-fit: cover;
-}
 .container {
   flex: 7;
   scroll-snap-type: x mandatory;
@@ -46,7 +28,18 @@
   flex: none;
   /*width: calc(100vw - 100px);*/
   width: 100vw;
-
   scroll-snap-align: start;
   /*scroll-margin-left: 100px;*/
+
+  overflow: hidden;
+}
+
+@media (max-width: 840px) {
+  .container {
+    display: block;
+  } 
+  .container > section{
+    height:auto;
+    
+  }
 }
