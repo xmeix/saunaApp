@@ -1,6 +1,7 @@
 import "./App.css"; 
 import Bienfaits from "./components/bienfaits/Bienfaits";
 import Comment from "./components/comment/Comment";
+import Contact from "./components/contact/Contact";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Pourquoi from "./components/pourquoi/Pourquoi";
@@ -30,7 +31,7 @@ function App() {
           <h1>fifth</h1>
         </section>
         <section id="contact">
-          <h1>fifth</h1>
+          <Contact/>
         </section>
       </div>
     </div>

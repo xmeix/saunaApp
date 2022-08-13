@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="header">
       <h1 className="logo">
-        <img src={logo} alt="logo" className="logoImage" />
+        {/*<img src={logo} alt="logo" className="logoImage" />*/}
         <p>Ammadyn</p>
       </h1>
       <button className="closeBtn" onClick={myFunction}>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <a href="#tarif">
           <li>Tarif</li>
         </a>
-        <a href="#contact">
+        <a href="#contact" className="special">
           <li>Contact</li>
         </a>
       </ul>

@@ -5,11 +5,16 @@ const Home = () => {
     <div className="home">
       <div className="textcontainer">
         <h1>"Booster l’engagement de vos employés"</h1>
-        <p className="definition">Massage en entreprise 'Amma assis' est le meilleur outil pour la gestion du stress au travail et de prévention des risques psycho-sociaux </p>
-        <a classname="rendev" href="#contact" >Schedule a massage.</a>
+        <p className="definition">
+          Vous voulez prendre soin de vos collaborateurs, réduire le stress,
+          l’absentéisme et le présentéisme, améliorer le climat social et la
+          productivité de votre entreprise? Le Amma assis est l’outil idéal.
+        </p>
+        <a classname="rendev" href="#contact">
+          Schedule a massage.
+        </a>
       </div>
       <img className="homebackground" src={homepic} alt="home" />
-      
     </div>
   );
 };
